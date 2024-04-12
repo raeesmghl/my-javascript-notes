@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+<!--
+    OTHER EXAMPLE
+    
+    <div id="demo"></div>
+
+     -->
+    <input type="text" name="text" id="text" onchange="myF()">
+    <input type="submit" value="submit">
+    <p id="paragraph"></p>
+    <button type="button" id="btn">click to change the color of div</button>
+    <div id="div">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, nisi ex! Veniam ex, tenetur illum illo at
+        maxime eligendi repudiandae temporibus, enim cum totam cupiditate. Officiis recusandae dicta quis facilis.
+    </div>
+    <script>
+
+
+        let inputField = document.getElementById('text');
+        let btn = document.getElementsByTagName('input')[1];
+        let text = document.getElementById('paragraph');
+
+
+        let myF = () => {
+            let val = inputField.value;
+            let string;
+            if (isNaN(val) || val < 1 || val > 10) {
+                string = 'invalid (please enter a number between 1 and 10)';
+                text.style.color = 'red';
+            } else {
+                string = `you entered ${val} , so its OK`;
+                text.style.color = 'green';
+            }
+            text.innerHTML = string
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+        let btnn = document.getElementById('btn');
+        let div = document.getElementById('div');
+
+
+        btnn.onclick = newF;
+        function newF() {
+            let colors = ['red', 'blue', 'gray', 'yellow', 'pink', 'orange'];
+            let color = colors[Math.floor(Math.random() * colors.length)];
+
+            div.style.backgroundColor = color
+        }
+
+
+
+
+        //OTHER EXAMPLE
+
+        // let div = document.getElementById('demo');
+
+        // let heading = 'heading of ul';
+
+        // let str = 'first second thrid four five six';
+        // let items = str.split(' ');
+
+        // let html = `<h1>${heading}</h1>`
+        // html += '<ul>';
+        // console.log(html)
+        // for (let i of items) {
+        //     html += `<li>${i}</li>`;
+        // };
+
+        // html += '</ul>';
+
+        // div.innerHTML = html;
+    </script>
+</body>
+
+</html>
