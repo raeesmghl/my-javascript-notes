@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+        }
+
+        body {
+            background-color: red;
+            color: white;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button onclick="func()">click</button>
+    <script>
+        let body = document.body;
+
+        let func = () => {
+            let theme;
+            body.classList.toggle('blue');
+
+            if (body.classList.contains('blue')) {
+                theme = 'blue';
+                console.log(theme);
+            } else {
+                theme = 'red';
+                console.log(theme);
+            }
+
+            localStorage.setItem('theme', theme);
+
+        }
+
+        let whatTheme = localStorage.getItem('theme');
+
+        if (whatTheme == 'blue') {
+            body.classList.add('blue');
+        }
+
+    </script>
+
+</body>
+
+</html>
