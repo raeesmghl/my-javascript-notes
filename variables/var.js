@@ -74,3 +74,9 @@
 //   console.log(x);    // in the block x  is 20
 // }
 // console.log(x)      //because it is not a block scoped, so this is 20 here    // but in let, it will be 10
+
+
+
+
+
+// all the three variables (let,var,const) are functional scoped it means if a variable si declared inside a function, it is not accessable outside of the function;
