@@ -449,7 +449,9 @@ When to Use Arrays. When to use Objects.
 
 
 
-let classMates = ['raees','rehman','sohail','Abubakar','abdulrehman','john','ahsan','mohsin','arslan','fahad','usama','tayyab','talha','iqrar','waseem','zohaib','umar','bilal','tahoor','doud','aihan','rumman','talha arshad','ikram','islam','sultan','anwar'];
+let classMates = ['raees','rehman','sohail','Abubakar','abdulrehman','john','ahsan','mohsin','arslan','fahad',
+                  'usama','tayyab','talha','iqrar','waseem','zohaib','umar','bilal','tahoor','doud','aihan',
+                  'rumman','talha arshad','ikram','islam','sultan','anwar'];
 
 console.log(classMates[5])
 classMates[5]='john alea';                       //changing
@@ -579,7 +581,8 @@ console.log(typeof islam)
 
 
     let joining = favourites.join(' ');    // join method does not modify the original string  
-    console.log(joining)                   // getting the variable in which the  favoirites (after converting into string through join() method) is stored
+    console.log(joining)                   // getting the variable in which the  favoirites 
+                                           // (after converting into string through join() method) is stored
     
     or:
 
