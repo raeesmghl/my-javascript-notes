@@ -643,3 +643,45 @@ for(let i of str){
     }
 }
 console.log(obj);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let func = () =>{
+    let age = Number(prompt('enter your age'));
+    console.log(age);
+
+    if(isNaN(age)){// if user enters data in alphabetic form
+        alert('please enter age in numbers');
+        func();
+    }else if(age<0){
+        alert('please enter a valid age');  // if user enters data with negative value
+        func();
+    }else if(age==0){
+        alert('please enter your age');    // if user enters 0, press cancel or press OK with empty prompt.
+        func();
+    }else if (age<18){
+        alert('you age underage');         // think this alert like base case for recursive function as func is not calling itself anymore
+    }else if(age>=18){
+        alert('you can drive');            //this is base case too.
+    }
+}
+
+func();
