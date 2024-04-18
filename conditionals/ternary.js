@@ -104,3 +104,28 @@ let userName = prompt('enter your name');
 
 let output = "hey " + (userName? userName:'stranger') +' how are you';
 console.log(output) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let x = Number(prompt('enter the value of x'));
+
+!x?alert('sidhi bakwaas kr'):(x%2==0 && x%3==0)?console.log('number is divisible by 2 and 3'): (x%2==0)?console.log('only divisible by 2'):(x%3==0)?console.log('only divisible by 3'):console.log('not by 3 or 2')
