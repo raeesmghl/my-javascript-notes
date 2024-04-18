@@ -238,7 +238,11 @@ if (!x) {
   alert('x is a negative number')
 }
 
+// you can also add a condition to check wether the input is a numeric string or alphabetic string
 
+// else if(!Number(x)){       // the result of Number(x) is NaN (if string is alphebetic) and ! will turn this into true;
+//     alert('hello')
+// }
 
 
 
