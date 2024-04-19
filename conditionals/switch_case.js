@@ -255,6 +255,7 @@ switch(true){
   break;
   case (percentage(score)<33):
     console.log('you are fail with' , percentage(score) , '% marks')
+    console.log('yeh dekh aalu aise lagate hain');
     break;
 }
 
