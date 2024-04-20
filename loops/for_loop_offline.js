@@ -255,6 +255,31 @@ console.log(fictorial);
 
 
 
+let arr = [23,12,34,132,[98,97,96,95,94,93],[0,1,2,3],1,2,3,4,5,6];
+function abc(array) {
+    for(let i = 0;i<array.length;i++){
+        if(Array.isArray(array[i])){
+            abc(array[i])
+        }else{
+            console.log(array[i]);
+        }
+    }
+}
+abc(arr);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //Reversing a string
 
 // let str = 'this is a string';
