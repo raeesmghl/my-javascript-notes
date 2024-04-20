@@ -41,6 +41,31 @@
 
 
 
+
+
+
+
+
+let n = 5;
+let fictorial = 1;
+for(let i = 2 ; i<=n ; i++){
+    console.log(fictorial + ' x ' +  i  + ' = ' +  (fictorial*=i));
+}
+console.log(fictorial);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // let a = [1,2,3,4,5]
 // for(let i in a){
 //     console.log( i + ' ' + a[i])
