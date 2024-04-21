@@ -263,3 +263,70 @@ arr.forEach((v,i,a)=>{
 
 console.log(primes + ' are prime numbers');
 console.log(composites + ' are composite numbers');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let num = 23; // use random number by using math.random();
+
+let func = ()=>{
+    let guess = prompt('enter a number 1-100'); // we did not use Number() because we want to add a functionality like quit this function.
+
+    if(!guess){  // if guess=null, guess=''. two posibilities by clicking cancel or OK ;
+
+        if(guess==null){ 
+
+            let confirming = confirm('quit game?');
+
+            if(confirming){
+                return;
+            }else{
+                func()
+            }
+
+        }else if (guess==''){
+            alert('please enter a number');
+            func();
+        }
+    } // after this condition passed, their are only two posibilities: guess = alphabetic string(can also use special characters inside this); guess= numeric sring
+    else if(isNaN(guess)){               // this condition clears that we did not use Number() but we add a condition not to accept alphabetic string.
+        
+        alert('only numbers are allowed');
+        func();
+    }else if(guess>100 || guess<1){
+        alert('please enter a number between 1 and 100');
+        func();
+    }else if(guess>num){
+        alert('try smaller num then '+ guess);
+        func();
+    }else if(guess<num){
+        alert('try bigger num then ' + guess);
+        func()
+    }else if(guess == num){
+        alert('correct');
+    }
+
+}
+// you can also add attempts
+func()
