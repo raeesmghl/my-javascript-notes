@@ -659,3 +659,39 @@ array1.forEach(multiplyby2);
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// marks average. if marks are less than 0, ignore that
+
+let marks = [89,67,90,-1,0,99,87,34,45,78];
+let avg = (arr) =>{
+    let sum = 0;
+    let count = 0;
+    arr.forEach(element => {
+        if(element>=0){
+            sum+=element;
+            count++;
+        }
+    });
+    let final = sum/count;
+    return Number(final.toFixed());
+}
+let calc = avg(marks);
+console.log(calc)
