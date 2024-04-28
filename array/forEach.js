@@ -8,7 +8,14 @@ myArray.forEach(function (element) {
 });
 
 
-// In this example, we declare an array myArray with 5 elements. We then use the forEach method to loop through each element in the array. The forEach method takes a callback function as an argument, which is called for each element in the array. In this case, the callback function simply logs each element to the console.
+// In this example, we declare an array myArray with 5 elements.
+//We then use the forEach method to loop through each element in the array.
+//The forEach method takes a callback function as an argument, which is called for each element in the array.
+//In this case, the callback function simply logs each element to the console.
+
+
+
+
 
 
 
