@@ -702,6 +702,10 @@ console.log(typeof islam)
 
 
 
+// If you want to flatten a nested array but also have a condition to check whether the elements are arrays or other data types,
+//you can modify the flattening function to include this condition.
+//Here's how you can do it:
+// this is (kind of) recursive function.
 
 
 let ar = [
