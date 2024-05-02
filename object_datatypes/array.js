@@ -694,3 +694,31 @@ console.log(typeof islam)
 
 
 
+
+
+
+
+
+
+
+
+
+
+let ar = [
+    [1, 2, 3, 4, 5],
+    [2, 4, 6, 8, 10],
+    [1, 3, 5, 7, 9],
+    [0, 1, 2, 3, 4, [5, 6, 7, 8, 9, [10, 11, 12, [0,0,0,0,0,[90,90,90,90,90],0],13, 14]]],
+];
+
+let func = (arr) =>{
+    return arr.reduce((a,b)=>{
+        if(Array.isArray(b)){
+            return a.concat(func(b))
+        }else{
+            return a.concat(b);
+        }
+    },[])
+};
+
+console.log(func(ar));
