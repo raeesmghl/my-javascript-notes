@@ -726,3 +726,39 @@ let func = (arr) =>{
 };
 
 console.log(func(ar));
+
+
+
+// but we can also use flat() method to flatten our array
+
+// The flat() method is a built-in method in JavaScript 
+//that allows you to flatten an array to a specified depth.
+//However, the flat() method does not provide a built-in way to filter
+//or conditionally process elements during flattening. (reffering to the last example as we have the authority to perform some other operation during flattening);
+
+// Here's how you can use flat() to flatten a nested array:
+
+
+let arr = [
+    [1,2,3,4,5],
+    ['a','b','c','d'],
+    [true,true,true,true],
+    [1,1,1,1,1,[2,2,2,2,2,[3,3,3,3,3,[4,4,4,4,4]]]]
+];
+let ar2 = arr.flat(Infinity);     // this method does not modify the original array;
+
+console.log(arr);
+console.log(ar2);
+
+
+
+
+
+
+//The flat() method accepts an optional argument that specifies the depth of flattening.
+//If no depth is provided or if it's 1, (1 is default),it flattens the array by one level. 
+// Using Infinity as the depth will flatten the array recursively to any depth.
+
+
+
+
