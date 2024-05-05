@@ -219,7 +219,20 @@ all.forEach((element) => {
 
 
 
+//OR : 
 
+let digits = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+let odd = [];
+let even = [];
+digits.forEach((v,i,a)=>{
+  v%2==0?even.push(v):odd.push(v);    // CHECKS THE CONDITION AND ALSO PUSH THE ELEMENT INTO THE DESIRED ARRAY;
+});
+console.log(odd);
+console.log(even);
+
+
+let newAr = odd.concat(even).sort((a,b)=>a-b);  // ADDING BOTH ARRAYS INTO A SINGLE ARRAY AGAIN AND SORTING OUT THE NEW ARRAY
+console.log(newAr);
 
 
 
