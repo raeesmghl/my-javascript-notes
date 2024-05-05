@@ -132,6 +132,20 @@ console.log(sum);
 
 
 
+//another way of sum with more flexibility in which their is a filter that checks if the element is NaN.
+
+let arr = [1,2,3,4,5,'abc'];
+let sum = 0;
+arr.forEach((el,idx,ary) => {
+  sum+=Number(el)?el:0;
+});
+
+console.log(arr);
+console.log(sum);
+
+
+
+
 
 
 
