@@ -708,7 +708,16 @@ console.log(typeof islam)
 // this is (kind of) recursive function.
 
 
-// to understand this recursive function, simply do it with a nested array of depth 1 , like array inside an array, and focus on recursive call in the if block and concat in the else block
+
+
+// to understand this recursive function, 
+//simply do it with a nested array of depth 1 , like array inside an array,
+//and focus on recursive call in the if block and concat in the else block.
+
+// after understanding this concept you can move to the (Leetcode 2625) on youtube. this problem is solved in a different way.
+//try to understand this.
+// it was really easy after this
+// just try to understand and that's it
 
 let ar = [
     [1, 2, 3, 4, 5],
