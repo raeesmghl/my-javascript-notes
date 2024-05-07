@@ -708,6 +708,8 @@ console.log(typeof islam)
 // this is (kind of) recursive function.
 
 
+// to understand this recursive function, simply do it with a nested array of depth 1 , like array inside an array, and focus on recursive call in the if block and concat in the else block
+
 let ar = [
     [1, 2, 3, 4, 5],
     [2, 4, 6, 8, 10],
@@ -718,7 +720,7 @@ let ar = [
 let func = (arr) =>{
     return arr.reduce((a,b)=>{
         if(Array.isArray(b)){
-            return a.concat(func(b))
+            return a.concat(func(b))  
         }else{
             return a.concat(b);
         }
