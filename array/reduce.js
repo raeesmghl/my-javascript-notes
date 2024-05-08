@@ -75,3 +75,22 @@ let total = numberss.reduce((ac,cu)=>{
     return ac + cu.marks;
 },0);
 console.log('the total marks are '+total);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// inside object-datatypes, their is an example about flattening a nested array.
+// this concept uses (reduce method and recursive function).
