@@ -330,3 +330,42 @@ let func = ()=>{
 }
 // you can also add attempts
 func()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// check palindrome
+
+let a = 'oh who was it i saw? oh who';
+
+
+function isPalindrome(str) {
+
+    // used REGEX
+    let newStr = str.replaceAll(/[^a-zA-Z0-9]/g, '').toLowerCase();
+
+    for (let i = 0; i < newStr.length; i++) {
+        if (newStr[i] !== newStr[newStr.length - i - 1]) {
+            return false;
+        }
+    }
+
+    return true;
+}
+let check = isPalindrome(a);
+console.log(check);
+
+
+
+
