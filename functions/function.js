@@ -408,3 +408,43 @@ console.log(check);
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+// check no of vovels in a string;
+// returns an object with contains the count of each vovel and total number of vovels in the string;
+
+let str = 'a quick borwn fox jumps over the lazy dog';
+let func = (str)=>{
+    let vovel = ['a','e','i','o','u'];
+    let obj = {};
+    let count = 0;
+    
+    for(let i of str){
+        if(vovel.includes(i)){
+            count++;
+            if(obj[i]){
+                obj[i]++;
+            }else{
+                obj[i] = 1;
+            }
+        }
+    }
+    
+    obj["count"] = count;
+    return obj;
+}
+let result = func(str);
+console.log(result);
+
+
+
