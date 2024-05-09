@@ -1,3 +1,6 @@
+// before getting started with functions, check the difference between functions and methods.
+
+
 
 
 
