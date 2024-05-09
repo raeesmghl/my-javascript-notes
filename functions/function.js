@@ -85,6 +85,27 @@ gettingSumFrom1(naturalNumber)
 
 
 
+// using return. this only return an array of all the statements that we were printing using console.
+
+
+let n = Number(prompt('enter you number'));
+let func = (n)=>{
+    let sum = 0;
+    let arr = [];
+    
+    for(let i = 1;i<=n;i++){
+        arr.push(`${sum} + ${i} = ${sum+=i}`);
+    }
+    
+    return arr.join('\n');
+}
+let result = func(n);
+console.log(result);
+
+
+
+
+
 
 
 
