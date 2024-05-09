@@ -84,6 +84,14 @@ console.log('the total marks are '+total);
 
 
 
+// largest number in an array;
+
+let arr = [1,5,7,2,4];
+let largest = arr.reduce((acc,curr)=>{
+    return acc>curr?acc:curr;
+})
+console.log(largest);
+
 
 
 
