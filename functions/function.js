@@ -12,7 +12,9 @@
 
 // Modularity: Functions allow you to break down your code into smaller, manageable chunks. Each function can represent a specific task or piece of functionality, making your code easier to understand and maintain.
     
-// Reuse: By defining functions, you can reuse the same block of code multiple times throughout your program without duplicating it. This promotes code efficiency and reduces redundancy.
+// Reuse: By defining functions, you can reuse the same block of code multiple times throughout your program without duplicating it. This promotes code efficiency and reduces redundancy (repeat) (not good for your code).
+
+// Reduncancy : mostly if a code is repeated multiple times, it is covered with a function and function reference is used repeatedly that reduces code redundancy
     
 // Abstraction: Functions enable you to abstract away complex logic behind a simple interface. This means you can encapsulate the details of how a task is accomplished within a function, allowing other parts of your code to interact with it without needing to understand its internal implementation.
     
