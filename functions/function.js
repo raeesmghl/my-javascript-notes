@@ -371,6 +371,56 @@ console.log(composites + ' are composite numbers');
 
 
 
+// a better way : 
+// this function returns an array of to keys primes and composites.
+// you can do more changes
+
+
+
+// this is prime checking function
+let isPrime = (n) =>{
+    if(n<2){
+        return false;
+    }
+    for(let i = 2;i<n;i++){
+        if(n%i==0){
+            return false;
+        }
+    }
+    return true;
+}
+
+// main function that checks the number and place it in the right position.
+let possibles = (n)=>{
+    let obj = {
+        primes : [],
+        composite : [],
+    }
+    for(let i = 1;i<n;i++){
+        isPrime(i)?obj['primes'].push(i):obj['composite'].push(i);
+    }
+    return obj;
+}
+let results = possibles(10);
+console.log(results);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
