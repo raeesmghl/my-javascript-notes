@@ -169,6 +169,37 @@ console.log(result);
 
 
 
+// this function does not reverse the array, but it reverse each word's letters.
+
+
+let str = 'this is a string';
+let reverseAlph = (str)=>{
+    // converts the string into the array , where each character (even space) becomes an element of the array. then reverse it.
+    let reversedArr = str.split('').reverse();
+
+    // now this array is joined again and now splitted into an array by using space, each word is an element of array. and then reverse it.
+    let reversedStr = reversedArr.join('').split(' ').reverse();
+    return reversedStr.join(' ');
+}
+
+console.log(reverseAlph(str));
+console.log(str);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
