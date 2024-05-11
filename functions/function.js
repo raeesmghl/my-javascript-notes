@@ -262,6 +262,18 @@ let permition=()=>{
 
 
 
+// can also use reduce method like this : 
+
+let highest = (arr) =>{
+    return arr.reduce((a,b)=>{
+        return a>b?a:b;
+    });
+}
+
+
+
+
+
 
 
 
