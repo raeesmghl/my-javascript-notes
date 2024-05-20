@@ -281,3 +281,10 @@ pro.then((v)=>{// asynchronous (because .then is used to handle resolved value, 
     console.log(v); 
 });
 console.log('after'); // synchronous
+
+
+
+
+
+
+// checkout the code execution in javascript by hitesh choudhary in chai our code
