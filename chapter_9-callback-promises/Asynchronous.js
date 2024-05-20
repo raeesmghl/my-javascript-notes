@@ -288,3 +288,4 @@ console.log('after'); // synchronous
 
 
 // checkout the code execution in javascript by hitesh choudhary in chai our code
+// then move to the async by hitesh choudhary in chai our code
