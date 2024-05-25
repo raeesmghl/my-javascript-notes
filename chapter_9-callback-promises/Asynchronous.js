@@ -287,5 +287,5 @@ console.log('after'); // synchronous
 
 
 
-// checkout the code execution in javascript by hitesh choudhary in chai our code
+// checkout the code execution in javascript by hitesh choudhary in chai our code also  checkout the event loop by namaste javascript and hitesh choudhary's english channel
 // then move to the async by hitesh choudhary in chai our code
