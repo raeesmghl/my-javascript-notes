@@ -68,3 +68,12 @@ for in / for of
 examples
 
 ---
+
+
+## 7: functions
+
+functions/ functional scope
+
+recursive function
+
+---
