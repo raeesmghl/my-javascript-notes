@@ -1,10 +1,11 @@
 ## 1 : start with variables
 
-       let 
+let 
 
-       var
+var
 
-       const
+const
 
+---
 
 ## 2: premitive datatypes
