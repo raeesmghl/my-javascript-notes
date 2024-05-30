@@ -33,3 +33,14 @@ object  (deeply explained in the oop)
 ---
 
 
+## 4: operators
+
+arithmetic
+
+assigment
+
+comparison
+
+---
+
+
