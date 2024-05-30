@@ -25,7 +25,11 @@ bigInt (not used anywhere)
 
 ## 3: object datatypes
 
+array  (after reading, go to w3schools to check all the methods)
 
+object  (deeply explained in the oop)
 
 
 ---
+
+
