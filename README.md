@@ -77,3 +77,20 @@ functions/ functional scope
 recursive function
 
 ---
+
+## 8: string
+
+---
+
+## 9: array
+
+---
+
+## 10: DOM
+
+---
+
+
+## 11 : 
+
+
