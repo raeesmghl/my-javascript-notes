@@ -1,4 +1,4 @@
-## 1 : start with variables
+## 1 : variables
 
 let 
 
@@ -11,21 +11,21 @@ const
 ## 2: premitive datatypes
 
 
-string
+string (detailed notes are in the string folter, directly located in the my-javascript-notes)
 
 number
 
 boolean
+
+null/undefined 
+
+bigInt (not used anywhere)
 
 ---
 
-## 2: premitive datatypes
+## 3: object datatypes
 
 
-string
 
-number
-
-boolean
 
 ---
