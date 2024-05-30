@@ -57,3 +57,14 @@ ternary
 
 
 
+## 6: loops
+
+for
+
+while / do while
+
+for in / for of
+
+examples
+
+---
