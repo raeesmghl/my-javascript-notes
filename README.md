@@ -44,3 +44,16 @@ comparison
 ---
 
 
+## 5: conditionals
+
+if else
+
+switch case
+
+ternary
+
+---
+
+
+
+
