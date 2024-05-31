@@ -80,6 +80,10 @@ recursive function
 
 ## 8: string
 
+string methods 
+
+
+
 ---
 
 ## 9: array
