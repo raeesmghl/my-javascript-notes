@@ -141,5 +141,7 @@ and some bookmarked blogs by freecodecamp + medium
 
 synchronous js
 
+asynchronous js
+
 
 
