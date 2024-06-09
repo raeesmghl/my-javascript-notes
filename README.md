@@ -111,6 +111,10 @@ reduce
 
 their is not a specific arrangement for reading
 
+after reading, also check BOM from w3schools
+
+
+
 
 ---
 
