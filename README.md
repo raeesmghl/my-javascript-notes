@@ -80,7 +80,9 @@ recursive function
 
 ## 8: string
 
-string methods 
+string methods
+
+string search
 
 
 
