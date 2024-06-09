@@ -102,7 +102,7 @@ filter
 
 reduce
 
-examples ( sort | capitalize first letter | check chatGPT)
+### examples ( sort | capitalize first letter | check chatGPT)
 
 
 ---
