@@ -123,6 +123,13 @@ browser APIs (like setTimeout, fetch)
 ---
 
 
-## 11 : 
+## 11 : javascript behind the scenes
+
+check this from 'chai our javascript' code execution video
+
+or namaste javascript
+
+and some bookmarked blogs by freecodecamp + medium
+
 
 
