@@ -90,6 +90,21 @@ string search
 
 ## 9: array
 
+(we have covered a lot in object datatypes);
+
+### loops 
+
+for each
+
+map
+
+filter
+
+reduce
+
+
+
+
 ---
 
 ## 10: DOM
