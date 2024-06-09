@@ -109,6 +109,9 @@ reduce
 
 ## 10: DOM
 
+their is not a specific arrangement for reading
+
+
 ---
 
 
