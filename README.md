@@ -113,6 +113,10 @@ their is not a specific arrangement for reading
 
 after reading, also check BOM from w3schools
 
+events
+
+
+browser APIs (like setTimeout, fetch)
 
 
 
