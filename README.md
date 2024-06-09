@@ -133,3 +133,13 @@ and some bookmarked blogs by freecodecamp + medium
 
 
 
+
+---
+
+
+## 12 : chapter_9-callback-promises
+
+synchronous js
+
+
+
