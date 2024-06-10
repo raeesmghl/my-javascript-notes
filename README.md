@@ -1,4 +1,8 @@
-i created this repository as my personal notes
+#i created this repository as my personal notes
+
+##pattern for leaning : 
+
+---
 
 ## 1 : variables
 
