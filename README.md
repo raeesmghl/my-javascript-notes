@@ -1,6 +1,6 @@
-#i created this repository as my personal notes
+# I created this repository as my personal notes
 
-##pattern for leaning : 
+## Pattern for leaning
 
 ---
 
