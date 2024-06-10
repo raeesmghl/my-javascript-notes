@@ -1,4 +1,4 @@
-
+i created this repository as my personal notes
 
 ## 1 : variables
 
