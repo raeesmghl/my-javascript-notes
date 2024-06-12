@@ -146,6 +146,9 @@ and some bookmarked blogs by freecodecamp + medium
 ## AJAX 
 
 
+before getting started with fetch, you should learn about ajax, xmlhttprequest, how requests were sent before fetch api
+
+
 
 
 
