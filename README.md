@@ -156,6 +156,7 @@ how requests were sent before fetch api
 
 this will help you understand asynchronous javascript
 
+(during learning, you should have the only basic knowledge of http status code, we will check this in node js)
 
 
 
