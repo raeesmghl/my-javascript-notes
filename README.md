@@ -143,6 +143,15 @@ and some bookmarked blogs by freecodecamp + medium
 ---
 
 
+## AJAX 
+
+
+
+
+
+---
+
+
 ## 12 : chapter_9-callback-promises
 
 synchronous js
