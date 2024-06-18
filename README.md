@@ -146,7 +146,7 @@ and some bookmarked blogs by freecodecamp + medium
 ## AJAX 
 
 
-before getting started with fetch, you should learn about 
+before getting started with fetch, you should learn about :
 
 ajax
 
