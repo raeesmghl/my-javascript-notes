@@ -177,3 +177,8 @@ callback hell / pyramid of doom
 promises
 
 promises examples + methods + importance
+
+
+---
+
+## 13 : chapter_10-cookies-storages
