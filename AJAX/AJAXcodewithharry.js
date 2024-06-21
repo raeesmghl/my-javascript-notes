@@ -127,3 +127,17 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+// their is another method (older but still can be used) onreadystatechange 
+
