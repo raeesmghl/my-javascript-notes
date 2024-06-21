@@ -176,4 +176,4 @@ callback hell / pyramid of doom
 
 promises
 
-promises examples
+promises examples + methods + importance
