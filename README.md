@@ -182,3 +182,5 @@ promises examples + methods + importance
 ---
 
 ## 13 : chapter_10-cookies-storages
+
+fetch()
