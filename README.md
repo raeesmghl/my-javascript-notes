@@ -174,3 +174,5 @@ callback
 
 callback hell / pyramid of doom
 
+promises
+
