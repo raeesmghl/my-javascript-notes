@@ -172,5 +172,5 @@ asynchronous js
 
 callback
 
-callback hell/ 
+callback hell / pyramid of doom
 
