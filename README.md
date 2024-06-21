@@ -178,6 +178,7 @@ promises
 
 promises examples + methods + importance
 
+async/await
 
 ---
 
