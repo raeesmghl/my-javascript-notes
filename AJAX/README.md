@@ -1,4 +1,4 @@
-## 
+## This is just a little work on AJAX, but I have made separate files for all the resources I used.
 
 
 you can read about xmlhttprequest on [w3school](https://www.w3schools.com/xml/xml_http.asp)
