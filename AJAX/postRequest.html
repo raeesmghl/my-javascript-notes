@@ -17,17 +17,14 @@
             let btn = document.querySelector('#btn');
 
 
-        // btn.addEventListener('click', clickEventFunc);
+            btn.addEventListener('click', clickEventFunc);
 
         function clickEventFunc() {
-
             // let username = prompt('enter your user name (you want to post)')||'raees';
             // let interest = prompt('enter your user interest (you want to post)')||'coding';
-
-
-            let xhr = new XMLHttpRequest();
-
-            let url = 'https://jsonplaceholder.typicode.com/posts';
+            
+            let xhr = new XMLHttpRequest();    // create xhr object
+            let url = 'https://jsonplaceholder.typicode.com/posts';   // url stored in a variable, you can directly enter in the xhr.open();
 
             let method = 'post';
 
