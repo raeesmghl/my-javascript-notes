@@ -63,6 +63,69 @@
         // String Format: The entire data payload is a single string.
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+         //JSON FORMAT
+
+        // To send data as JSON using XMLHttpRequest, you need to do the following.
+
+        // Set the Content-Type header to application/json.
+        // Convert the data object to a JSON string using JSON.stringify().
+        // Send the JSON string as the request body.
+
+        btn.addEventListener('click', clickEventFunc2);
+
+        function clickEventFunc2() {
+            let xhr = new XMLHttpRequest();
+
+            let url = 'https://jsonplaceholder.typicode.com/posts';
+            let method = 'POST';
+
+            xhr.open(method, url, true);
+
+            // Set the Content-Type header to application/json
+            xhr.setRequestHeader('Content-Type', 'application/json');
+
+            // Define the data object
+            let data = {
+                title: 'newPost',
+                body: 'Body'
+            };
+
+            // Convert the data object to a JSON string
+            let jsonData = JSON.stringify(data);
+
+            // Send the JSON string
+            xhr.send(jsonData);
+
+            xhr.onload = function () {
+                // Log the response text to the console
+                console.log(this.responseText);
+                // console.log(JSON.parse(this.responseText)); // this is how to convert into preffered format (object)
+            };
+
+            // Optionally, handle errors
+            xhr.onerror = function () {
+                console.error('Request failed');
+            };
+        }
         
     </script>
     
