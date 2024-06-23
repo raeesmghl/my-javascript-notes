@@ -26,11 +26,11 @@
             let xhr = new XMLHttpRequest();    // create xhr object
             let url = 'https://jsonplaceholder.typicode.com/posts';   // url stored in a variable, you can directly enter in the xhr.open();
 
-            let method = 'post';
+            let method = 'post';     // method is stored in a variable, (clean code practice)
 
             xhr.open(method, url, true);
 
-            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');   // during post request , you also have to set content type in the headers
 
 
             let data = 'title=newPost&body=Body';
