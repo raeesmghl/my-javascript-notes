@@ -17,7 +17,7 @@
             let btn = document.querySelector('#btn');
 
 
-            btn.addEventListener('click', clickEventFunc);
+            // btn.addEventListener('click', clickEventFunc);
 
         function clickEventFunc() {
             // let username = prompt('enter your user name (you want to post)')||'raees';
@@ -90,9 +90,8 @@
         // Convert the data object to a JSON string using JSON.stringify().
         // Send the JSON string as the request body.
 
-        btn.addEventListener('click', clickEventFunc2);
 
-        function clickEventFunc2() {
+        function clickEventFunc() {
             let xhr = new XMLHttpRequest();
 
             let url = 'https://jsonplaceholder.typicode.com/posts';
