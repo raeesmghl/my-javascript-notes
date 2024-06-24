@@ -261,3 +261,44 @@
         //     }
 
         // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // harry used this example to demonstrate post request using json data;
+        // function buttonClickHandler() {
+        //     let xhr = new XMLHttpRequest();
+        //     xhr.open('post', 'https://dummy.restapiexample.com/api/v1/create', true);
+        //     xhr.setRequestHeader('Content-type','application/json')
+        //     let param = `{"name":"test","salary":"123","age":"23zindabad "}`;
+        //     xhr.send(param);
+        //     xhr.onreadystatechange = function () {
+        //         if (xhr.readyState == 4) {
+        //             console.log(this.responseText)  // data key contains your data
+        //         }
+        //     }
+        // }
