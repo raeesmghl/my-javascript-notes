@@ -190,3 +190,37 @@
 
 
 
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ // POST METHOD
+
+
+
+        // using string format (for details, check postRequest.html file);
+        function buttonClickHandler3() {
+            let xhr = new XMLHttpRequest();
+
+            xhr.open('post', 'https://dummy.restapiexample.com/api/v1/create', true);
+
+            xhr.setRequestHeader('Content-type','application/x-www-form-urlencoded');
+
+            
+            let param = 'name=test&salary=123&age=23';
+
+            xhr.send(param)
+
+            // let param = {"name":"test","salary":"123","age":"23"}
+            // let dataJson = JSON.stringify(param);
+            // xhr.send(dataJson);
+
+
+            xhr.onreadystatechange = function () {
+
+                if (xhr.readyState == 4) {
+                    console.log(JSON.parse(this.responseText))
+                }
+            }
+        }
+
+
