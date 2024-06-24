@@ -139,5 +139,54 @@
 
 
 
+
+
+
+
+
+
+
 // their is another method (older but still can be used) onreadystatechange 
+
+
+
+        // instead of "onload" you can also use onreadystatechange
+
+        // actually readystate is a property of xhr that Returns a number representing the state of the request.
+
+        // check explaination 'https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/readyState'
+
+        // i am creating buttonClickHandler function again to demonstrate onreadystatechange
+        // this function runs everytime readyState of xhr changes
+        // xhr.readyState can also be access outside of the onreadystatechange funtion
+
+
+
+        function buttonClickHandler2() {
+            const xhr = new XMLHttpRequest();
+            // xhr.open('GET', 'https://randomuser.me/api/', true);
+            xhr.open('GET', 'https://jsonplaceholder.typicode.com/todos/1', true);
+
+            xhr.send()
+
+            // xhr.abort()   // 	Cancels the current request
+
+            xhr.onreadystatechange = function () {
+
+                if (xhr.readyState == 4) {
+
+                    // let data = JSON.parse(this.responseText);
+                    // console.log(data.info.version);
+                    console.log(this.responseText)
+                    console.log(xhr.readyState)
+
+                }// else block is not used because this function runs everytime the readystate changes, until it reaches 4, it would have called else block more than 2 times to show error.
+
+            }
+
+        }
+
+
+
+
 
