@@ -224,3 +224,40 @@
         }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // // using JSON format
+        // function buttonClickHandler4() {
+
+        //     let xhr = new XMLHttpRequest();
+
+        //     xhr.open('post', 'https://dummy.restapiexample.com/api/v1/create', true);
+
+        //     xhr.setRequestHeader('Content-type','application/json')
+
+        //     let param = {"name":"test","salary":"123","age":"23zindabad "}
+        //     let dataJson = JSON.stringify(param);
+        //     xhr.send(dataJson);
+
+
+        //     xhr.onreadystatechange = function () {
+
+        //         if (xhr.readyState == 4) {
+        //             console.log(JSON.parse(this.responseText).data)  // data key contains your data
+        //         }
+        //     }
+
+        // }
