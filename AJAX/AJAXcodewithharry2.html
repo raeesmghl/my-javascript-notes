@@ -1,1 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX | CODEWITHHARRY</title>
+</head>
+
+<body>
+
+    <h1>AJAX tutorial</h1>
+
+    <button type="button" id="fetch-btn">fetch BUTTON</button>
+
+    <ul id="ul">
+        <li>List of employee</li>
+    </ul>
+
+    <script>
+
+        let btn = document.querySelector('#fetch-btn');
+
+        let list = document.querySelector('#ul');
+
+        btn.addEventListener('click', populateData);
+
+        function populateData() {
+            let xhr = new XMLHttpRequest();
+
+            xhr.open('get', 'https://dummy.restapiexample.com/api/v1/employees', true);
+
+            xhr.send();
+
+            xhr.onload = function () {
+
+                let data = JSON.parse(this.responseText).data;
+
+                let entries = '';
+
+                for (let entry of data) {
+                    let emName = entry.employee_name;
+                    entries += `<li>${emName}</li>`
+                }
+
+                list.innerHTML = entries;
+
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>
