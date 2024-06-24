@@ -1,36 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>xhr post request</title>
+    <title>post request</title>
+    <style>
+        body {
+            background-color: #2c2c2c;
+            color: white;
+
+        }
+    </style>
 </head>
+
 <body>
 
 
     <button type="button" id="btn">request</button>
 
 
-    
+
     <script>
 
-            let btn = document.querySelector('#btn');
+        let btn = document.querySelector('#btn');
 
 
-            // btn.addEventListener('click', clickEventFunc);
+        // btn.addEventListener('click', clickEventFunc);
 
         function clickEventFunc() {
+
             // let username = prompt('enter your user name (you want to post)')||'raees';
             // let interest = prompt('enter your user interest (you want to post)')||'coding';
-            
-            let xhr = new XMLHttpRequest();    // create xhr object
-            let url = 'https://jsonplaceholder.typicode.com/posts';   // url stored in a variable, you can directly enter in the xhr.open();
 
-            let method = 'post';     // method is stored in a variable, (clean code practice)
+
+            let xhr = new XMLHttpRequest();
+
+            let url = 'https://jsonplaceholder.typicode.com/posts';
+
+            let method = 'post';
 
             xhr.open(method, url, true);
 
-            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');   // during post request , you also have to set content type in the headers
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 
 
             let data = 'title=newPost&body=Body';
@@ -74,25 +86,21 @@
 
 
 
-
-
-
-
-
-
-        
-
-         //JSON FORMAT
+        //JSON FORMAT
 
         // To send data as JSON using XMLHttpRequest, you need to do the following.
 
         // Set the Content-Type header to application/json.
         // Convert the data object to a JSON string using JSON.stringify().
         // Send the JSON string as the request body.
-        // BTW code is copied from chatGPT
 
 
-        function clickEventFunc() {
+
+
+
+        btn.addEventListener('click', clickEventFunc2);
+
+        function clickEventFunc2() {
             let xhr = new XMLHttpRequest();
 
             let url = 'https://jsonplaceholder.typicode.com/posts';
@@ -126,9 +134,8 @@
                 console.error('Request failed');
             };
         }
-        
+
     </script>
-    
-    
 </body>
+
 </html>
