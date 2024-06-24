@@ -1,1 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    0 UNSENT Client has been created. open() not called yet.
+
+    <br>
+
+    1 OPENED open() has been called.
+
+    <br>
+
+    2 HEADERS_RECEIVED send() has been called, and headers and status are available.
+
+    <br>
+
+    3 LOADING Downloading; responseText holds partial data.
+
+    <br>
+
+    4 DONE The operation is complete.
+
+
+
+
+    <script>
+
+
+
+        // Here's a basic overview of XMLHttpRequest:
+
+
+        // XMLHttpRequest() is a method in which has its own ready states. Used to send and recive data from the servers (basically it is an object that is used to interact with servers)
+
+
+        // we can imagine it like a class, so we have to create an object out of it. so use "new" keyword before XMLHttpRequest();
+        // stored in a variable
+
+
+        // Creating an XMLHttpRequest Object
+        // First, you need to create a new instance of XMLHttpRequest
+
+        let xhr = new XMLHttpRequest();
+
+
+
+        // now we will use open(). actually open() is used to send request. and this is only available when you have created XMLHttpRequest()
+
+        // Opening a Request
+        // You use the open method to specify the type of request (GET, POST, etc.), the URL, and (is your request) asynchronous:
+
+
+
+        // like this : 
+        // xhr.open('GET', 'https://api.example.com/data', true);
+
+        let requestURL = 'https://api.github.com/users/raeesmghl';
+
+        xhr.open('GET', requestURL);
+
+
+
+        // as we have created an open() method, now how to call it ? we call it by just creating send() method. by just creating .send(), .open() is called 
+
+
+        console.log('HERE');
+
+        xhr.send();
+
+        // at this point I don't know what is happening in the code, but something is going on
+
+        // actually when you send request, it changes with time . (states codes changes) (noted in the html body)
+
+
+
+        // onreadystatechange is the method of xhr that takes the function and is used to track the readyState;
+
+        // this method is also used to handle the response of the xhr
+
+        xhr.onreadystatechange = function () {
+            console.log(xhr.readyState)
+
+
+            // mostly data is in the form of string, you have to convert into json and use parse to convert this string into object
+
+            if (xhr.readyState == 4) {
+                // console.log(this.responseText)
+
+                const data = JSON.parse(this.responseText);
+
+                console.log(data.login)
+            }
+        }
+
+
+
+
+
+    </script>
+</body>
+
+</html>
+
+
 
