@@ -11,3 +11,8 @@ Access to XMLHttpRequest at 'https://www.w3schools.com/js/cd_catalog.xml' from o
 
 
 this url is accessible, when you are working on s3school's built in IDE (code editor)
+
+
+===
+
+after that, go to [AJAX examples](https://www.w3schools.com/js/js_ajax_examples.asp) 
