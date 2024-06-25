@@ -1,4 +1,4 @@
-## w3school.xml contains data at ['this address'](https://www.w3schools.com/js/cd_catalog.xml);
+## w3school.xml contains data is copied from ['this address'](https://www.w3schools.com/js/cd_catalog.xml);
 
 ## data was not accessible from url, so i copied and created my own [xml](https://github.com/raeesmghl/my-javascript-notes/blob/main/AJAX/w3sPROJECT/w3school.xml) file;
 
