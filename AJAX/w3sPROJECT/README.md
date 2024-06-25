@@ -15,4 +15,4 @@ this url is accessible, when you are working on s3school's built in IDE (code ed
 
 ===
 
-after that, go to [AJAX examples](https://www.w3schools.com/js/js_ajax_examples.asp) 
+after that, go to [AJAX examples](https://www.w3schools.com/js/js_ajax_examples.asp) and try to solve these problems
