@@ -1,1 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>http request xml data</title>
+</head>
+
+<body>
+
+    <!--  url 
+    https://www.w3schools.com/js/cd_catalog.xml -->
+
+    <button type="button" id="btn" onclick="fetchData()">fetch data</button>
+    <table id="table" border="1">
+
+    </table>
+
+
+    <script>
+
+        let table = document.getElementById('table');
+
+        let fetchData = () => {
+            let xhr = new XMLHttpRequest();
+
+            xhr.open('get', 'w3school.xml');
+            xhr.send();
+
+            xhr.onload = function () {
+                let x = this.responseXML;
+
+                let cd = x.getElementsByTagName('CD')
+                manipulation(cd);
+            }
+        }
+
+        function manipulation(cd) {
+
+            let text = `<tr>
+                <th>title</th>
+                <th>artist</th>
+                <th>country</th>
+                <th>company</th>
+                <th>price</th>
+                <th>year</th>
+                </tr>`;
+
+
+
+            for (let i = 0; i < cd.length; i++) {
+
+                let title = cd[i].getElementsByTagName('TITLE')[0].innerHTML;
+                let artist = cd[i].getElementsByTagName('ARTIST')[0].innerHTML;
+                let country = cd[i].getElementsByTagName('COUNTRY')[0].innerHTML;
+                let company = cd[i].getElementsByTagName('COMPANY')[0].innerHTML;
+                let price = cd[i].getElementsByTagName('PRICE')[0].innerHTML;
+                let year = cd[i].getElementsByTagName('YEAR')[0].innerHTML;
+
+                text += `<tr>
+                    <td>${title}</td>
+                    <td>${artist}</td>
+                    <td>${country}</td>
+                    <td>${company}</td>
+                    <td>${price}</td>
+                    <td>${year}</td>
+                       </tr>`
+
+
+            }
+
+            table.innerHTML +=text;
+
+        }
+
+    </script>
+
+</body>
+
+</html>
