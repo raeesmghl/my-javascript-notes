@@ -12,7 +12,9 @@
     <!--  url 
     https://www.w3schools.com/js/cd_catalog.xml -->
 
-    <button type="button" id="btn" onclick="fetchData()">fetch data</button>
+    <button type="button" id="btn">fetch data</button>
+
+
     <table id="table" border="1">
 
     </table>
@@ -22,7 +24,15 @@
 
         let table = document.getElementById('table');
 
-        let fetchData = () => {
+        let btn = document.querySelector('#btn');
+
+        btn.addEventListener('click',fetchData);
+
+        function fetchData () {
+
+            btn.setAttribute('disabled',true);
+
+
             let xhr = new XMLHttpRequest();
 
             xhr.open('get', 'w3school.xml');
@@ -73,6 +83,7 @@
             table.innerHTML +=text;
 
         }
+
 
     </script>
 
