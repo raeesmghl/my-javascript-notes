@@ -1,6 +1,6 @@
 ## w3school.xml contains data at ['this address'](https://www.w3schools.com/js/cd_catalog.xml);
 
-## i could not used this data from url, so i copied and created my own [xml]() file;
+## i could not used this data from url, so i copied and created my own [xml](https://github.com/raeesmghl/my-javascript-notes/blob/main/AJAX/w3sPROJECT/w3school.xml) file;
 
 
 
