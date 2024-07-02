@@ -13,7 +13,7 @@ console.log('hello world');
 console.log(333);
 console.log(true);
 
-// first hello world is printed than 333 and than true is printed in the console
+// first "hello world" is printed than "333" and than "true" is printed in the console
 
 
 
