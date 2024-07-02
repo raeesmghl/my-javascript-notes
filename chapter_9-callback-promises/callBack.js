@@ -424,7 +424,23 @@ loadS('https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min
 // same function with error handling
 
 
+// main funciton
+function loadScript(src,callback) {
+    let script = document.createElement('script');
+    script.src = src;
 
+    script.onload = () =>{
+        console.log('src : ' + src);
+        callback(null,src)
+    }
+    
+    script.onerror = () =>{
+        
+        let er = new Error('error in src: ' + src);
+        callback(er,src)
+    }
+    document.head.appendChild(script)
+}
 
 
 
