@@ -442,7 +442,14 @@ function loadScript(src,callback) {
     document.head.appendChild(script)
 }
 
-
+// 2nd funciton (used as callback);
+function cb (error,src){
+    if(error){
+        console.log(error);
+        return;
+    }
+    console.log('success, src : '+ src);
+}
 
 
 
