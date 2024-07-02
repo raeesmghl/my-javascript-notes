@@ -452,6 +452,8 @@ function cb (error,src){
 }
 
 
+loadScript("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrdap.bundle.min.js",cb);
+
 
 
 
