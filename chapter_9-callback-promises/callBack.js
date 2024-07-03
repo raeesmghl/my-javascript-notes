@@ -408,7 +408,15 @@ function redbg(cb4) {
     document.body.style.backgroundColor = 'red'; // after 'func3' printed, backgroundColor imediately becomes red, as its not in the setTimeout
     setTimeout(cb4, 1000);  // takes 1 second to invoke the callback;
 }
+function parentBox(cb5) {
+    setTimeout(() => {
+        let el = document.createElement('div');
+        el.classList.add('parentBox');
+        document.body.appendChild(el) 
+        cb5(el);    // created div is passed as argument;
 
+    }, 1000);      // box is created after 2 seconds 
+}
 
 
 //       /////// CODEWITHHARRY  /////// 
