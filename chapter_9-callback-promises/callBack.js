@@ -426,6 +426,20 @@ function text(el) {
 }
 
 
+greet(()=>{
+    func1(()=>{
+        func2((()=>{
+            func3(()=>{
+                redbg(()=>{
+                    parentBox((el)=>{  // the callback funciton for parentBox is anonymous funciton, having 1 parameter
+                        text(el)  // this parameter is passed as argument for text()
+                    })
+                })
+            })
+        }))
+    })
+})
+
 
 
 
