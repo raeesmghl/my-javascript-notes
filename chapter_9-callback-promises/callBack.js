@@ -439,7 +439,7 @@ function text(el) {
 
 
 
-
+// calling greet funciton
 greet(()=>{
     func1(()=>{
         func2((()=>{
