@@ -404,7 +404,10 @@ let func3 = (cb3) =>{
         cb3();
     },1000);
 }
-
+function redbg(cb4) {
+    document.body.style.backgroundColor = 'red'; // after 'func3' printed, backgroundColor imediately becomes red, as its not in the setTimeout
+    setTimeout(cb4, 1000);  // takes 1 second to invoke the callback;
+}
 
 
 
