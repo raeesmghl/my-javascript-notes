@@ -458,6 +458,19 @@ greet(()=>{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 //       /////// CODEWITHHARRY  /////// 
 
 
@@ -772,9 +785,7 @@ let multiply = (a,b) =>{
   return a*b;
 };
 
-let divide = (a,b) =>{
-  return a/b;
-};
+let divide = (a,b) => a/b
 
 
 let doOperation = (a,b,callback) =>{
