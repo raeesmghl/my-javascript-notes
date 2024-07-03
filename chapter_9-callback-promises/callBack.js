@@ -386,6 +386,12 @@ function greet(cb) {
     }, 1000);
 } 
 
+let func1 = (cb1) =>{
+    setTimeout(()=>{
+        console.log('func1')
+        cb1();
+    },1000);
+}
 
 
 
