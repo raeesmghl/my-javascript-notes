@@ -398,7 +398,12 @@ let func2 = (cb2) =>{
         cb2();
     },1000);
 }
-
+let func3 = (cb3) =>{
+    setTimeout(()=>{
+        console.log('func3')
+        cb3();
+    },1000);
+}
 
 
 
