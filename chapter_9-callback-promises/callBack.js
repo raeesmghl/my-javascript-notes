@@ -378,6 +378,16 @@ greet('raees',()=>{
 
 
 
+function greet(cb) {
+    
+    setTimeout(() => {
+        console.log('hello world')
+        cb();
+    }, 1000);
+} 
+
+
+
 
 
 
