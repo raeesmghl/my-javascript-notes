@@ -417,6 +417,17 @@ function parentBox(cb5) {
 
     }, 1000);      // box is created after 2 seconds 
 }
+function text(el) {
+    setTimeout(() => {
+        let h1 = document.createElement('h1');
+        h1.innerHTML = 'hello world';
+        el.appendChild(h1);
+    }, 1000);
+}
+
+
+
+
 
 
 //       /////// CODEWITHHARRY  /////// 
