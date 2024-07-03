@@ -378,6 +378,18 @@ greet('raees',()=>{
 
 
 
+
+
+
+
+
+
+
+
+// new example 3 july 2024;
+
+
+
 function greet(cb) {
     
     setTimeout(() => {
@@ -424,6 +436,8 @@ function text(el) {
         el.appendChild(h1);
     }, 1000);
 }
+
+
 
 
 greet(()=>{
