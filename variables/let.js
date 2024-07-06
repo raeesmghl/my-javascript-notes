@@ -110,7 +110,7 @@
 
 // freecodecamp.org (ES6)
 
-let a = 3,b=9    
+let a = 3,b=9    // using a single let or const we can declare multiple variables (2 or more than 2)
 
 // that is equals to: 
 let a = 3; 
