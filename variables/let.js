@@ -109,4 +109,4 @@
 
 
 // freecodecamp.org (ES6)
-// let a = 3,b=9
+// let a = 3,b=9    // that is equals to: let a = 3; let b = 9;
