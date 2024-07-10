@@ -96,7 +96,7 @@ func2
 
 // what if timeout is before the while loop.
 // Timeout function will count its time until while loop counts its time.
-// but after 1 second timeout function will not execute because while loop has stopped the execution of the code, so after 5 seconds,
+// but after 1 second timeout function will not execute because while loop has been executed and has stopped the execution of the code, so after 5 seconds,
 // the code executes imediately
 // output will be the same
 
