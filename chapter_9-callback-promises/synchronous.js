@@ -65,15 +65,14 @@ fun1();
 
 
 let func2 = () => console.log('func2');
-
-
 let func1=()=>{
-
     console.log('func1 started');
+    
     let d = new Date().getTime();
     while(new Date().getTime()-d<=5000){
-    }
-    setTimeout(func2,1000)
+    }  // for 5 seconds the execution of the code stops and control never moves to the next line
+    
+    setTimeout(func2,1000)  
     console.log('func1 ended');
 }
 
