@@ -64,6 +64,20 @@ fun1();
 
 
 
+let func2 = () => console.log('func2');
+
+
+let func1=()=>{
+
+    console.log('func1 started');
+    let d = new Date().getTime();
+    while(new Date().getTime()-d<=5000){
+    }
+    setTimeout(func2,1000)
+    console.log('func1 ended');
+}
+
+func1();
 
 
 
