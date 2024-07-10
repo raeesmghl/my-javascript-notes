@@ -85,7 +85,13 @@ let func1=()=>{
     console.log('func1 ended');
 }
 func1();
+// output : 
 
+/*
+func1 started
+func1 ended
+func2
+*/
 
 
 
