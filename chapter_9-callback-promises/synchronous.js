@@ -81,7 +81,7 @@ let func1=()=>{
     }  // for 5 seconds the execution of the code stops and control never moves to the next line
 
     // after 5 seconds the control moves to the next line
-    setTimeout(func2,1000) //  now (after 5 seconds) the timer starts
+    setTimeout(func2,1000) //  now (after 5 seconds) the timer starts. the callback is passed to the task queue and after 1 second, it is thrown into the callstack
     console.log('func1 ended');
 }
 func1();
