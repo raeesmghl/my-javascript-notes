@@ -364,6 +364,7 @@ fetchData()
 
 // asynchronous example with async/await
 
+// USED the PREVIOUS 'fetchData' function 
 async function asyncFunciton() {
     try{
         let data = await fetchData();
