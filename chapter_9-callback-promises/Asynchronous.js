@@ -382,7 +382,21 @@ asyncFunciton();
 
 
 
-// FETCH : 
+// asynchronous example with FETCH : 
+
+async function fetchData() {
+    try{
+        let response = await fetch('https://api.github.com/users/raeesmghl');
+        let data = await response.json();
+        console.log(data);
+    }catch(error){
+        console.error('Error in fetching Data : ',error);
+    }
+}
+
+fetchData();
+
+// you can also use .then catch method, as fetch returns a promise
 
 
 
