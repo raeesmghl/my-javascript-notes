@@ -306,6 +306,7 @@ console.log('after'); // synchronous
 
 // chat GPT examples : 
 
+// asynchronous example with callbacks
 function fetchData(callback) {
 
     setTimeout(() => {
@@ -337,10 +338,27 @@ dataFetching(cb)
 
 
 
+// asynchronous example with promises
+function fetchData() {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            const success = true;
+            if (success) {
+                resolve('Fetched Data');
+            } else {
+                reject('Failed to fetch data');
+            }
+        }, 2000);
+    });
+}
 
-
-
-
+fetchData()
+    .then(data => {
+        console.log('Processing: ' + data);
+    })
+    .catch(error => {
+        console.error(error);
+    });
 
 
 
