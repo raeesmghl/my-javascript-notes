@@ -289,3 +289,54 @@ console.log('after'); // synchronous
 
 // checkout the code execution in javascript by hitesh choudhary in chai our code also  checkout the event loop by namaste javascript and hitesh choudhary's english channel
 // then move to the async by hitesh choudhary in chai our code
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// chat GPT examples : 
+
+function fetchData(callback) {
+
+    setTimeout(() => {
+        console.log('Data fetched');
+        callback('Fetched Data');
+    }, 2000);
+}
+function processData(data) {
+    console.log('Processing: ' + data);
+}
+
+fetchData(processData);
+
+// my own created function
+function dataFetching(callback) {
+    setTimeout(() => {
+        console.log('raees Data');
+        callback('raees Data fetched');
+    }, 2000);
+}
+function cb(data) {
+    console.log('fetched Data is : ' + data);
+}
+dataFetching(cb)
+// seperately, they both work similar, but if you run them both together, can you guess the answer everytime you did changes with timing in two of those?
+
+
