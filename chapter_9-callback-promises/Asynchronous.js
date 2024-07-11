@@ -364,7 +364,16 @@ fetchData()
 
 // asynchronous example with async/await
 
-
+async function asyncFunciton() {
+    try{
+        let data = await fetchData();
+        console.log('data : ' + data);
+    }
+    catch(er){
+        console.log(er);
+    }
+}
+asyncFunciton();
 
 
 
