@@ -362,7 +362,7 @@ fetchData()
 
 
 
-
+// asynchronous example with async/await
 
 
 
