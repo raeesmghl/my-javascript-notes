@@ -377,7 +377,7 @@ async function asyncFunciton() {
 asyncFunciton();
 
 
-
+// as 'fetchData' funciton returns a promise, so we can either use 'then catch' or 'async await'
 
 
 
