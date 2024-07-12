@@ -187,10 +187,22 @@ funccc('raees',(v)=>{
   setTimeout(bye,1000,v)
 })
 
+// you can also set it as :
+
+function greeting(name,callback) {
+    console.log('hey ' + (name || 'user'));
+    callback(name);
+}
 
 
+function bye(params) {
+    setTimeout(() => {
+        console.log('bye ' + (params || "user"))
+    }, 2000);
+}
+let ask = prompt('enter a value');
 
-
+greeting(ask,bye)
 
 
 
