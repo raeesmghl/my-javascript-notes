@@ -331,7 +331,7 @@ greet(myName, meeting)  // calling function with myName and a callback function 
 
 // a better way
 // in the last example you used a setTimeout to show a statment ('let me check') and wanna make delay after this statement executed, you used another setTimeout with time greater than first one , so second one should execute after the execution of first one
-// but you can use the second setTimeout inside the first one , which means when first statement is executed, start setTimeout for second statement
+// but you can use the second setTimeout inside the first one , which means when first statement is executed, it starts the timeout for the second statement
 
 let n = 'raees'
 let meeting = () => {
