@@ -93,14 +93,11 @@ AA();
 
 
 
-let display = (some) =>{
-  console.log(some)
+let display = (result) =>{
+  console.log(result)
 }
 
-let summing = (a,b) =>{
-  let sum = a+b;
-  return sum
-}
+let summing = (a,b) => a+b;
 let result = summing(5,6);
 display(result)
 
