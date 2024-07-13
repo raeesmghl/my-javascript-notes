@@ -1,8 +1,6 @@
 
 
-let funcA = () =>{
-  console.log('funcA')
-}
+let funcA = () =>console.log('funcA')
 let funcB = () =>{
   console.log('funcB')
 }
