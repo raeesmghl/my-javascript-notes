@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 - There is a function 'checkVisibility' which is invoked on scroll
 - "window.innerHeight" and "document.documentElement.clientHeight" are very similar thats why || operator is used and stored this hiehgt value in a variable
-
+- the third "if" statement have 2 conditions, i understood first one but the second one?
 
 
 
