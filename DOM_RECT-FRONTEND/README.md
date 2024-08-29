@@ -49,3 +49,9 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 ```
+
+
+#### explaination
+
+- there is a function 'checkVisibility' which is invoked on scroll
+
