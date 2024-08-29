@@ -51,7 +51,16 @@ document.addEventListener('DOMContentLoaded', function() {
 ```
 
 
-#### explaination
+#### Explaination
 
-- there is a function 'checkVisibility' which is invoked on scroll
+- There is a function 'checkVisibility' which is invoked on scroll
+- "window.innerHeight" and "document.documentElement.clientHeight" are very similar
+
+
+
+
+
+
+
+
 
