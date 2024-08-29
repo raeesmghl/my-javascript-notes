@@ -62,5 +62,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
+## example by ChatGPT : 
+
+#### Here's an example of how you can use getBoundingClientRect() to get the size and position of an element
+
+
+
 
 
