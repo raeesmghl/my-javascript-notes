@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
 - to understand this i used 2 more if statement (to see the second condition in the 3rd if statement)
 
 
-#### to see the effect i can also use else condition with 3rd if condition : 
+#### to see the effect i can also use else condition with 3rd if statement : 
 
 ``` javascript
         if (rect.top <= windowHeight /2 && rect.bottom >= windowHeight / 2) {
