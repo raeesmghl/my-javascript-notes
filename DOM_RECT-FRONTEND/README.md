@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
 #### Here's an example of how you can use getBoundingClientRect() to get the size and position of an element
 
 
-```
+``` HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
