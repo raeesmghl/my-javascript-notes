@@ -14,3 +14,7 @@ In JavaScript, when working with the DOM (Document Object Model), the getBoundin
 - left: The distance from the left side of the viewport to the left side of the element.
 - width: The width of the element (i.e., right - left).
 - height: The height of the element (i.e., bottom - top).
+
+
+
+#### their is an exaple code from grint project : 
