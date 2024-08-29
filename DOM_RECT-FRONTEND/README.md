@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
 #### Explaination
 
 - There is a function 'checkVisibility' which is invoked on scroll
-- "window.innerHeight" and "document.documentElement.clientHeight" are very similar
+- "window.innerHeight" and "document.documentElement.clientHeight" are very similar thats why || operator is used and stored this hiehgt value in a variable
 
 
 
