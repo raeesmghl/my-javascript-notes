@@ -59,6 +59,19 @@ document.addEventListener('DOMContentLoaded', function() {
 - to understand this i used 2 more if statement (to see the second condition in the 3rd if statement)
 
 
+#### to see the effect i can also use else condition with 3rd if condition : 
+
+``` javascript
+        if (rect.top <= windowHeight /2 && rect.bottom >= windowHeight / 2) {
+            console.log(rect)
+            targetElement.classList.add('visible');
+        }else{
+            targetElement.classList.remove('visible');
+        }
+```
+
+
+
 
 
 
