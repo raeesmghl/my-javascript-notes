@@ -67,6 +67,41 @@ document.addEventListener('DOMContentLoaded', function() {
 #### Here's an example of how you can use getBoundingClientRect() to get the size and position of an element
 
 
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getBoundingClientRect Example</title>
+</head>
+<body>
+    <div id="myElement" style="width: 200px; height: 100px; background-color: lightblue;">
+        My Element
+    </div>
+
+    <script>
+        // Select the element
+        const element = document.getElementById('myElement');
+
+        // Get the DOMRect object for the element
+        const rect = element.getBoundingClientRect();
+
+        // Log the DOMRect properties
+        console.log('X:', rect.x);
+        console.log('Y:', rect.y);
+        console.log('Top:', rect.top);
+        console.log('Right:', rect.right);
+        console.log('Bottom:', rect.bottom);
+        console.log('Left:', rect.left);
+        console.log('Width:', rect.width);
+        console.log('Height:', rect.height);
+    </script>
+</body>
+</html>
+
+```
+
 
 
 
