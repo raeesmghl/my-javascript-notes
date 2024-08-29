@@ -19,7 +19,7 @@ In JavaScript, when working with the DOM (Document Object Model), the getBoundin
 
 #### Their is an exaple code from grint project : 
 
-'''
+''' javascript
 document.addEventListener('DOMContentLoaded', function() {
     const targetElement = document.querySelector('.target-element');
 
