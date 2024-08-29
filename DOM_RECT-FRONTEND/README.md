@@ -17,4 +17,34 @@ In JavaScript, when working with the DOM (Document Object Model), the getBoundin
 
 
 
-#### their is an exaple code from grint project : 
+#### Their is an exaple code from grint project : 
+
+'''
+document.addEventListener('DOMContentLoaded', function() {
+    const targetElement = document.querySelector('.target-element');
+
+    function checkVisibility() {
+        const rect = targetElement.getBoundingClientRect();
+        const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+        
+        // Check if the element is in the middle of the screen (approximately)
+
+        if(rect.top <= windowHeight /2 ){
+            console.log('top clear');
+        }
+        if(rect.bottom >= windowHeight / 2){
+            console.log('bottom clear')
+        }
+
+        if (rect.top <= windowHeight /2 && rect.bottom >= windowHeight / 2) {
+            console.log(rect)
+            targetElement.classList.add('visible');
+        }
+
+    }
+
+    window.addEventListener('scroll', checkVisibility);
+    checkVisibility(); // Initial check in case the element is already in view
+});
+
+'''
