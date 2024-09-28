@@ -59,25 +59,24 @@ function sum(n) {
 }
 ```
 
-To derive the formula for the sum of the first 
-𝑛
-n natural numbers:
+### To derive the formula for the sum of the first 𝑛 natural numbers:
+
+#### We can use a clever method, originally attributed to the mathematician Carl Friedrich Gauss.
+
+
+## Step-by-Step Derivation:
+
+### Write the sum in forward order:
 
 𝑆=1+2+3+⋯+𝑛
 
-S=1+2+3+⋯+n
+### Write the same sum in reverse order:
 
-We can use a clever method, originally attributed to the mathematician Carl Friedrich Gauss.
-
-Step-by-Step Derivation:
-Write the sum in forward order:
-
-𝑆=1+2+3+⋯+𝑛
-S=1+2+3+⋯+n
-Write the same sum in reverse order:
-𝑆=𝑛+(𝑛−1)+(𝑛−2)+⋯+1
 S=n+(n−1)+(n−2)+⋯+1
-Add both versions of the sum:
+
+
+### Add both versions of the sum:
+
 
 Now, add these two equations together, pairing the terms from the forward and reverse sums:
 
