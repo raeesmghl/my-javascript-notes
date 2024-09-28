@@ -1,3 +1,4 @@
+``` javascript
 // fictorial
 function fictorial(n) {
     if(n<=0){
@@ -6,3 +7,5 @@ function fictorial(n) {
     return fictorial(n-1) * n;
 }
 console.log(fictorial(4))
+
+```
