@@ -28,3 +28,18 @@ console.log(sumEvens(20));  // Output: 110
 
 ```
 
+``` javascript
+// Function to sum numbers from 1 to n
+function sum(n) {
+    if (n <= 0) {  // Base case: return 0 if n is 0 or negative
+        return 0;
+    }
+    
+    // Recursive call: sum(n-1) + n
+    return sum(n - 1) + n;
+}
+
+console.log(sum(5));  // Output: 15
+
+```
+
