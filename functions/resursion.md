@@ -49,4 +49,12 @@ console.log(sum(5));  // Output: 15
 
 ```
 i asked chatGPT to rewrite this code that has better runtime than my code,
+
 chatGPT suggested me to use this formula : Sum = n(n+1)/2
+
+so function looks like : 
+```javascript
+function sum(n) {
+    return n * (n + 1) / 2;
+}
+```
