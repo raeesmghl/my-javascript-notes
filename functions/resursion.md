@@ -1,4 +1,4 @@
-#1
+# 1
 ``` javascript
 // fictorial
 function fictorial(n) {
@@ -10,7 +10,7 @@ function fictorial(n) {
 console.log(fictorial(4))
 
 ```
-#2
+# 2
 ``` javascript
 // Function to sum all even numbers from 0 to n
 function sumEvens(n) {
@@ -29,6 +29,8 @@ console.log(sumEvens(20));  // Output: 110
 
 ```
 
+# 3
+
 ## sum (1 to n);
 
 
@@ -46,4 +48,5 @@ function sum(n) {
 console.log(sum(5));  // Output: 15
 
 ```
+
 
