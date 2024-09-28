@@ -48,5 +48,4 @@ function sum(n) {
 console.log(sum(5));  // Output: 15
 
 ```
-
-
+i asked chatGPT to rewrite this code that has better runtime than my code,
