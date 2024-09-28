@@ -63,18 +63,10 @@ To derive the formula for the sum of the first
 𝑛
 n natural numbers:
 
-𝑆
-=
-1
-+
-2
-+
-3
-+
-⋯
-+
-𝑛
+𝑆=1+2+3+⋯+𝑛
+
 S=1+2+3+⋯+n
+
 We can use a clever method, originally attributed to the mathematician Carl Friedrich Gauss.
 
 Step-by-Step Derivation:
