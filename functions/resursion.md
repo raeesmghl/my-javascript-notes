@@ -80,88 +80,12 @@ S=n+(n−1)+(n−2)+⋯+1
 
 Now, add these two equations together, pairing the terms from the forward and reverse sums:
 
-𝑆+
-𝑆
-=
-(
-1
-+
-𝑛
-)
-+
-(
-2
-+
-(
-𝑛
-−
-1
-)
-)
-+
-(
-3
-+
-(
-𝑛
-−
-2
-)
-)
-+
-⋯
-+
-(
-𝑛
-+
-1
-)
 S+S=(1+n)+(2+(n−1))+(3+(n−2))+⋯+(n+1)
-Each pair sums to 
-𝑛
-+
-1
-n+1. Since there are 
-𝑛
-n terms, we get:
+Each pair sums to n+1. Since there are n terms, we get:
 
-2
-𝑆
-=
-(
-𝑛
-+
-1
-)
-+
-(
-𝑛
-+
-1
-)
-+
-⋯
-+
-(
-𝑛
-+
-1
-)
-(a total of 
-𝑛
- terms)
 2S=(n+1)+(n+1)+⋯+(n+1)(a total of n terms)
 So:
 
-2
-𝑆
-=
-𝑛
-(
-𝑛
-+
-1
-)
 2S=n(n+1)
 Solve for 
 𝑆
