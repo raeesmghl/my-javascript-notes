@@ -59,6 +59,134 @@ function sum(n) {
 }
 ```
 
+To derive the formula for the sum of the first 
+𝑛
+n natural numbers:
 
+𝑆
+=
+1
++
+2
++
+3
++
+⋯
++
+𝑛
+S=1+2+3+⋯+n
+We can use a clever method, originally attributed to the mathematician Carl Friedrich Gauss.
 
+Step-by-Step Derivation:
+Write the sum in forward order:
 
+𝑆=1+2+3+⋯+𝑛
+S=1+2+3+⋯+n
+Write the same sum in reverse order:
+𝑆=𝑛+(𝑛−1)+(𝑛−2)+⋯+1
+S=n+(n−1)+(n−2)+⋯+1
+Add both versions of the sum:
+
+Now, add these two equations together, pairing the terms from the forward and reverse sums:
+
+𝑆+
+𝑆
+=
+(
+1
++
+𝑛
+)
++
+(
+2
++
+(
+𝑛
+−
+1
+)
+)
++
+(
+3
++
+(
+𝑛
+−
+2
+)
+)
++
+⋯
++
+(
+𝑛
++
+1
+)
+S+S=(1+n)+(2+(n−1))+(3+(n−2))+⋯+(n+1)
+Each pair sums to 
+𝑛
++
+1
+n+1. Since there are 
+𝑛
+n terms, we get:
+
+2
+𝑆
+=
+(
+𝑛
++
+1
+)
++
+(
+𝑛
++
+1
+)
++
+⋯
++
+(
+𝑛
++
+1
+)
+(a total of 
+𝑛
+ terms)
+2S=(n+1)+(n+1)+⋯+(n+1)(a total of n terms)
+So:
+
+2
+𝑆
+=
+𝑛
+(
+𝑛
++
+1
+)
+2S=n(n+1)
+Solve for 
+𝑆
+S:
+
+Finally, divide both sides by 2 to isolate 
+𝑆
+S:
+
+𝑆
+=
+𝑛
+(
+𝑛
++
+1
+)
+2S = n(n+1)/2
+​
