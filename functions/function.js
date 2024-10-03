@@ -562,3 +562,24 @@ console.log(result);
 
 
 
+
+
+
+
+
+// fibonacci series
+function func(n) {
+    let fib = [0,1];
+
+    for(let i = 2;i<n;i++){
+        fib.push(fib[fib.length-2]+fib[fib.length-1])
+    }
+
+    return fib;
+
+}
+
+console.log(func(6))
+// use recursive function to get the same results
+
+
