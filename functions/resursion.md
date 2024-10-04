@@ -114,7 +114,7 @@ function sum(arr,n) {
 
 # 5
 ``` javascript
-// Write a recursive function, sum(arr, n), that returns the sum of the first n elements of an array arr.
+// FCC 113/113 
 function rangeOfNumbers(startNum, endNum) {
   if (startNum > endNum) {
     return [];
