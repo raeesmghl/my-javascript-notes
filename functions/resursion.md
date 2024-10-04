@@ -111,4 +111,22 @@ function sum(arr,n) {
 
 ```
 
+
+# 5
+``` javascript
+// Write a recursive function, sum(arr, n), that returns the sum of the first n elements of an array arr.
+function rangeOfNumbers(startNum, endNum) {
+  if (startNum > endNum) {
+    return [];
+  }
+
+  let recursiveCall = rangeOfNumbers(startNum, endNum - 1);
+  recursiveCall.push(endNum);
+  return recursiveCall;
+};
+
+console.log(rangeOfNumbers(3, 3))
+
+```
+
 ​
