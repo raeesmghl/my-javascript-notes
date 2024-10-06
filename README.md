@@ -80,7 +80,7 @@ examples
 
 functions/ functional scope
 
-recursive function
+recursive function (read them after asynchronus and before oop)
 
 ---
 
