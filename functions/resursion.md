@@ -129,4 +129,12 @@ console.log(rangeOfNumbers(3, 3))
 
 ```
 
+
+
+# 6
+``` javascript
+
+```
+
+
 ​
