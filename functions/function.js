@@ -647,3 +647,21 @@ function checkAge(age) {
         alert('ao g')
     }
 }
+
+
+
+
+
+
+// codewar challenge
+// result to sai tha, but codewar did not accept
+// converting a string into cammelCase;
+
+function toCamelCase(str){
+    let ar = str.split('-');
+    let newAr = ar.map(word => {
+        return word[0].toUpperCase() + word.slice(1)
+    });
+    return newAr.join('');
+  }
+  console.log(toCamelCase('this-is-a-str'));
