@@ -276,8 +276,6 @@ console.log(print)
 
 
 //If you want to get 23 printed after 2 seconds, you should call the func function and pass the callb function as the callback, without assigning the return value of func to any variable. Here is the corrected code:
-
-
 // like : func(callb);
 
 
