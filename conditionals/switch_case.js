@@ -1,5 +1,5 @@
-//switch case is used different actions in case of different conditions
-
+//switch case is used for different actions in case of different conditions
+// not commonly used conditoinals
 
 
 //syntax
