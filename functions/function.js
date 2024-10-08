@@ -583,3 +583,67 @@ console.log(func(6))
 // use recursive function to get the same results
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// check age
+
+function func() {
+    let age = prompt('enter your age');
+    if (!age) {
+        if (age == '') {
+            emptyStr()
+        } else {
+            cancel()
+        }
+    } else if (isNaN(age)) {
+        nan()
+        console.log('a')
+    } else {
+        checkAge(age)
+    }
+}
+func();
+function emptyStr() {
+    alert('please enter a value\nits an empty string');
+    func()
+}
+function cancel() {
+    let cnf = confirm('do you want to quit?');
+    if (cnf) {
+        return
+    } else {
+        func()
+    }
+}
+function nan() {
+    alert('not a number\nplease enter a number');
+    func();
+}
+function checkAge(age) {
+    if (age < 0) {
+        alert('please enter a valid age')
+        func()
+    } else if (age == 0) {
+        alert('bsdk bakchodi mt kr')
+        func()
+    } else if (age < 18) {
+        alert('pogo dekh')
+    } else if (age >= 18) {
+        alert('ao g')
+    }
+}
