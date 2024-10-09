@@ -188,7 +188,8 @@ console.log(str);
 
 
 
-
+// or simply :
+let reversewords = str => str.split('').reverse().join('').split(' ').reverse().join(' ');
 
 
 
