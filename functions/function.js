@@ -665,3 +665,44 @@ function toCamelCase(str){
     return newAr.join('');
   }
   console.log(toCamelCase('this-is-a-str'));
+
+
+
+
+
+
+
+
+// breaking down a bigger number into numbers in a way that their sum is equal to the actual number;
+let splitIntoPieces = (n) =>{
+    if(n<=0){
+        return []
+    }
+
+    let arr = [];
+
+    while(n>0){
+
+        let random = Math.floor(Math.random()*9)+1;
+
+        if(random>n){
+            random = n
+        }
+
+        n-=random;
+
+        arr.push(random)
+
+    }
+    return arr;
+}
+console.log(splitIntoPieces(100))
+let b = splitIntoPieces(100).reduce((a,b)=>a+b,0)
+console.log(b);
+
+
+
+
+
+
+
