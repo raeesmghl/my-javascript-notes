@@ -134,6 +134,7 @@ console.log(rangeOfNumbers(3, 3))
 # 6
 ``` javascript
 // flatten an array till n deepness
+let arr = [1,[2,[3,[4,[5]]]]];
 let flatten = (arr,n) =>{
     if(n<=0){
         return arr;
@@ -147,6 +148,7 @@ let flatten = (arr,n) =>{
         }
     },[]);
 }
+
 ```
 
 
