@@ -133,7 +133,20 @@ console.log(rangeOfNumbers(3, 3))
 
 # 6
 ``` javascript
+// flatten an array till n deepness
+let flatten = (arr,n) =>{
+    if(n<=0){
+        return arr;
+    }
 
+    return arr.reduce((a,b)=>{
+        if(Array.isArray(b)){
+            return a.concat(flatten(b,n-1))
+        }else{
+            return a.concat(b)
+        }
+    },[]);
+}
 ```
 
 
